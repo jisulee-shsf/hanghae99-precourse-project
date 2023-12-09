@@ -15,11 +15,11 @@ from datetime import timedelta
 app = Flask(__name__)
 
 # 3. 애플리케이션 및 데이터베이스 설정
-app.config['SECRET_KEY'] = secrets.token_hex(16)
-app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
+app.config["SECRET_KEY"] = secrets.token_hex(16)
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(minutes=30)
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'database.db')
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + os.path.join(basedir, "database.db")
 db = SQLAlchemy(app)
 
 class Users(db.Model):
@@ -35,8 +35,8 @@ with app.app_context():
 @app.route("/")
 def home():
     userData = {}
-    userData['username'] = session.get("username", None)
-    userData['email'] = session.get("email", None)
+    userData["username"] = session.get("username", None)
+    userData["email"] = session.get("email", None)
     return render_template("home.html", data = userData)
 
 # 4-2. 회원가입 라우트 정의
@@ -105,5 +105,5 @@ def signOut():
     return redirect(url_for("home"))
 
 # 5. 애플리케이션 실행
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
