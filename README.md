@@ -39,9 +39,9 @@
 - 해결: secrets 모듈을 사용해 세션 데이터를 안전하게 처리할 수 있는 임의의 secret key를 설정해 에러를 해결함
 ##
 #### 📌 [Afterthoughts]
-- 단기간에 진행된 프로젝트임에도 불구하고, frontend와 backend의 다양한 기술들을 접할 수 있어 매우 흥미로웠습니다. 
+- 단기 프로젝트임에도 불구하고, frontend와 backend의 다양한 기술을 경험해볼 수 있어 매우 흥미로웠습니다. 
 - 쿠키와 세션의 차이를 이해하고 세션을 사용해 다양한 기능을 구현함으로써 웹 사이트 개발의 전반적인 흐름을 이해할 수 있었습니다.
-- 다음에는 JWT(JSON Web Tokens)에 기반한 사용자 인증 기능을 구현하고 싶습니다.
+- 다음에는 JWT(JSON Web Tokens)를 기반으로 사용자 인증 기능을 구현하고 싶습니다.
 ##
 #### 📌 [Deployment]
 - 🔗 [[항해99 웹 미니 팀 프로젝트] 여행 추천 사이트](https://minyonghyun.pythonanywhere.com/)
