@@ -6,6 +6,9 @@
 - 여행 장소를 추천하는 기본 구조의 웹 사이트 만들기 진행
 - 세션을 사용해 회원가입, 로그인, 로그아웃, 사용자 인증을 기반으로 페이지별 접근 제한 기능 구현 담당
 ##
+
+
+
 #### 📌 [Tech Stack]
 - <div align="left"><img src="https://img.shields.io/badge/[Frontend]-HTML5 / Bootstrap (CSS) / JavaScript (with jQuery)-FF6600"/>
 - <div align="left"><img src="https://img.shields.io/badge/[Backend]- Flask (Python web framework) / SQLite (database) / SQLAlchemy (ORM for database) / Python (programming language)-4479A1"/>
@@ -18,7 +21,7 @@
 ####
 |회원가입 유효성 검사에 성공한 경우|회원가입 유효성 검사에 실패한 경우|
 |:---:|:---:|
-|![가입1_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/c5dee2af-8e1d-49cc-8349-19532064503d)|![가입2_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8790fa4f-617a-4dcb-a5f4-96874a20fcc2)|
+|![회원가입1_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/b1a2c991-7ff8-4b00-bdf4-1baa081e7837)|![회원가입2_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/824afe1b-967f-42eb-9a11-83863bc28f55)|
 ####
 2. 로그인 기능
 - 로그인 폼으로 입력한 데이터를 받아와 입력값 누락 여부, 이메일 중복 여부, 비밀번호 일치 여부의 유효성 검사를 수행함
@@ -27,7 +30,7 @@
 ####
 |로그인 유효성 검사에 성공한 경우|로그인 유효성 검사에 실패한 경우|
 |:---:|:---:|
-|![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|
+|![회원가입1_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/b1a2c991-7ff8-4b00-bdf4-1baa081e7837)|![회원가입2_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/824afe1b-967f-42eb-9a11-83863bc28f55)|
 ####
 ####
 3. 사용자 인증에 기반한 페이지별 접근 제한 기능 / 4. 로그아웃 기능
@@ -36,7 +39,7 @@
 ####
 |로그인하지 않아 접근이 제한된 경우|로그아웃한 경우|
 |:---:|:---:|
-|![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|
+|![회원가입1_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/b1a2c991-7ff8-4b00-bdf4-1baa081e7837)|![회원가입2_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/824afe1b-967f-42eb-9a11-83863bc28f55)|
 ##
 #### 📌 [Troubleshooting]
 - 원인: Flask의 세션 관리 시 데이터를 안전하게 처리하기 위해 secret key가 설정되지 않아 RuntimeError 에러가 발생함
@@ -45,7 +48,7 @@
 
 ##
 #### ► [Afterthoughts]
-- 도메인 지식이 없는 데이터로 EDA를 포함한 modeling 전 과정을 스스로 고민해 구현하는 과정이 매우 유익했습니다.
+- 첫 개발 프로젝트를 경험하며 
 - 특히 게임 도메인을 학습해 다양한 가설을 설정하고 correlation 분석 방법으로 검증해 나가는 과정이 흥미로웠습니다.
 - 다방면의 도메인 데이터를 핸들링하며 더욱 심층적인 분석 경험을 쌓을 예정입니다.
 ##
