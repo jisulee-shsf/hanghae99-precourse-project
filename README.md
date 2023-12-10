@@ -5,11 +5,11 @@
 - 2023.12.6.~2023.12.8.(3일) | 항해99 웹 미니 팀 프로젝트
 - 여행 장소를 추천하는 기본 구조의 웹 사이트 만들기 진행
 - 세션을 사용해 회원가입, 로그인, 로그아웃, 사용자 인증을 기반으로 페이지별 접근 제한 기능 구현 담당
-####
+##
 #### 📌 [Tech Stack]
 - <div align="left"><img src="https://img.shields.io/badge/[Frontend]-HTML5 / Bootstrap (CSS) / JavaScript (with jQuery)-FF6600"/>
 - <div align="left"><img src="https://img.shields.io/badge/[Backend]- Flask (Python web framework) / SQLite (database) / SQLAlchemy (ORM for database) / Python (programming language)-4479A1"/>
-####
+##
 #### 📌 [Features]
 1. 회원가입 기능
 - 사용자가 회원가입 폼으로 입력한 데이터를 받아와 필수 입력값의 누락 여부, 이메일 중복 여부, 비밀번호 일치 여부의 유효성 검사를 수행함
@@ -37,15 +37,18 @@
 |로그인하지 않아 접근이 제한된 경우|로그아웃한 경우|
 |:---:|:---:|
 |![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|
-####
-#### ► [Troubleshooting]
-- 유효하지 않은 키:
-####
+##
+#### 📌 [Troubleshooting]
+- 원인: Flask의 세션 관리 시 데이터를 안전하게 처리하기 위해 secret key가 설정되지 않거나 부적절하게 구성되면 RuntimeError 에러가 발생함
+- 해결: secrets 모듈을 사용해 16자로 구성된 임의의 16진수 문자열을 생성하여 세션 데이터를 안전하게 처리할 수 있는 임의의 키를 제공해 에러를 해결함
+<img width="1239" alt="image" src="https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/4a28a4db-75ba-4513-8428-ce27bf4244b6">
+
+##
 #### ► [Afterthoughts]
 - 도메인 지식이 없는 데이터로 EDA를 포함한 modeling 전 과정을 스스로 고민해 구현하는 과정이 매우 유익했습니다.
 - 특히 게임 도메인을 학습해 다양한 가설을 설정하고 correlation 분석 방법으로 검증해 나가는 과정이 흥미로웠습니다.
 - 다방면의 도메인 데이터를 핸들링하며 더욱 심층적인 분석 경험을 쌓을 예정입니다.
-####
-#### ► [Reference]
-- [[Kaggle] PUBG Finish Placement Prediction](https://www.kaggle.com/competitions/pubg-finish-placement-prediction)
+##
+#### ► [Deployment]
+- 🔗 [[항해99 웹 미니 팀 프로젝트 | 8조] 여행 추천 사이트](https://minyonghyun.pythonanywhere.com/)
 ####
