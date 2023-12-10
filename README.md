@@ -21,7 +21,7 @@
 ####
 |회원가입 유효성 검사에 성공한 경우|회원가입 유효성 검사에 실패한 경우|
 |:---:|:---:|
-|![회원가입1_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/b1a2c991-7ff8-4b00-bdf4-1baa081e7837)|![회원가입2_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/824afe1b-967f-42eb-9a11-83863bc28f55)|
+|![회원가입1_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/98d38873-d658-44d5-a98a-0d5ef7fd2744)|![회원가입2_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/3128c571-9376-4905-9add-69c4cfc01263)|
 ####
 2. 로그인 기능
 - 로그인 폼으로 입력한 데이터를 받아와 입력값 누락 여부, 이메일 중복 여부, 비밀번호 일치 여부의 유효성 검사를 수행함
@@ -30,7 +30,7 @@
 ####
 |로그인 유효성 검사에 성공한 경우|로그인 유효성 검사에 실패한 경우|
 |:---:|:---:|
-|![회원가입1_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/b1a2c991-7ff8-4b00-bdf4-1baa081e7837)|![회원가입2_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/824afe1b-967f-42eb-9a11-83863bc28f55)|
+|![로그인1_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/d82b948a-d34c-4d98-bd42-d1a84744eaaf)|![로그인2_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/5cc3c89b-1aa3-4f52-8cf2-881d9d6537fd)|
 ####
 ####
 3. 사용자 인증에 기반한 페이지별 접근 제한 기능 / 4. 로그아웃 기능
