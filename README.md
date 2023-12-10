@@ -41,7 +41,7 @@
 #### 📌 [Troubleshooting]
 - 원인: Flask의 세션 관리 시 데이터를 안전하게 처리하기 위해 secret key가 설정되지 않아 RuntimeError 에러가 발생함
 - 해결: secrets 모듈을 사용해 세션 데이터를 안전하게 처리할 수 있는 임의의 secret key를 설정해 에러를 해결함
-<img width="1239" alt="image" src="https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/4a28a4db-75ba-4513-8428-ce27bf4244b6">
+<img width="1232" alt="스크린샷 2023-12-10 오후 10 13 45" src="https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/9ee1946c-f9b6-4b7b-82de-0f43675a1177">
 
 ##
 #### ► [Afterthoughts]
