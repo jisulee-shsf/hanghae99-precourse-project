@@ -36,10 +36,6 @@
 3. 사용자 인증에 기반한 페이지별 접근 제한 기능 / 4. 로그아웃 기능
 - 사용자가 로그인하지 않아 세션에 'email' 키가 없는 경우, 로그인하라는 플래시를 띄운 후 사용자를 홈 페이지로 리다이렉트함
 - 로그아웃 버튼을 클릭할 경우, 현재 세션의 모든 데이터가 지워지고 로그인 상태에서 로그아웃 상태로 전환됨
-####
-|로그인하지 않아 접근이 제한된 경우|로그아웃한 경우|
-|:---:|:---:|
-|![회원가입1_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/b1a2c991-7ff8-4b00-bdf4-1baa081e7837)|![회원가입2_out (1)](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/824afe1b-967f-42eb-9a11-83863bc28f55)|
 ##
 #### 📌 [Troubleshooting]
 - 원인: Flask의 세션 관리 시 데이터를 안전하게 처리하기 위해 secret key가 설정되지 않아 RuntimeError 에러가 발생함
