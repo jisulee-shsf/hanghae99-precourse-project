@@ -18,7 +18,7 @@
 ####
 |회원가입 유효성 검사에 성공한 경우|회원가입 유효성 검사에 실패한 경우|
 |:---:|:---:|
-|![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|![ezgif com-gif-maker](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8275f268-f855-4930-83df-6d2516ccd9cf)|
+|![가입1_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/c5dee2af-8e1d-49cc-8349-19532064503d)|![가입2_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/8790fa4f-617a-4dcb-a5f4-96874a20fcc2)|
 ####
 2. 로그인 기능
 - 사용자가 로그인 폼으로 입력한 데이터를 받아와 필수 입력값의 누락 여부, 이메일 중복 여부, 비밀번호 일치 여부의 유효성 검사를 수행함
