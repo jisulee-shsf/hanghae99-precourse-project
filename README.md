@@ -1,5 +1,5 @@
 ####
-# Hanghae99 Pre-course Project
+## Hanghae99 Pre-course Project
 ####
 #### 📌 [Introduction]
 - 2023.12.6.~2023.12.8.(3일) | 항해99 Pre-course 미니 웹 프로젝트
