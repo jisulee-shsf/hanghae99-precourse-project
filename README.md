@@ -2,9 +2,9 @@
 ## Hanghae99 Pre-course Project
 ####
 #### 📌 [Introduction]
-- 2023.12.6.~2023.12.8.(3일) | 항해99 Pre-course 미니 웹 프로젝트
-- 여행 장소를 추천하는 기본 구조의 웹 사이트 만들는 팀 프로젝트
-- 세션을 사용해 회원가입, 로그인, 로그아웃, 사용자 인증을 기반으로 페이지별 접근 제한 기능 구현 담당
+- 2023.12.6.~2023.12.8.(3일) | 항해99 Pre-course 프로젝트
+- 여행 장소를 추천하는 기본 구조의 웹 사이트 만들기 / 6인 팀 프로젝트
+- 세션을 사용해 회원가입, 로그인, 로그아웃, 사용자 인증에 기반한 액세스 제한 처리 기능 구현 담당
 ##
 #### 📌 [Tech Stack]
 - <div align="left"><img src="https://img.shields.io/badge/[frontend]-HTML / Bootstrap (CSS) / JavaScript (with jQuery)-FF6600"/>
@@ -30,7 +30,7 @@
 |![로그인1_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/d82b948a-d34c-4d98-bd42-d1a84744eaaf)|![로그인2_out](https://github.com/jisulee-shsf/hanghae99-precourse-project/assets/109773795/5cc3c89b-1aa3-4f52-8cf2-881d9d6537fd)|
 ####
 ####
-3. 사용자 인증에 기반한 페이지별 접근 제한 기능 / 4. 로그아웃 기능
+3. 사용자 인증에 기반한 액세스 제한 처리 기능 / 4. 로그아웃 기능
 - 사용자가 로그인하지 않아 세션에 'email' 키가 없는 경우, 로그인하라는 플래시를 띄운 후 사용자를 홈 페이지로 리다이렉트함
 - 로그아웃 버튼을 클릭할 경우, 현재 세션의 모든 데이터가 지워지고 로그인 상태에서 로그아웃 상태로 전환됨
 ##
