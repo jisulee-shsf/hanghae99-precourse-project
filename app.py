@@ -31,7 +31,7 @@ class Users(db.Model):
 with app.app_context():
     db.create_all()
 
-# 4-1. 홈 라우트 정의
+# 4-1. 홈 페이지 처리
 @app.route("/")
 def home():
     userData = {}
@@ -39,7 +39,7 @@ def home():
     userData["email"] = session.get("email", None)
     return render_template("home.html", data = userData)
 
-# 4-2. 회원가입 라우트 정의
+# 4-2. 사용자 회원가입 처리
 @app.route("/signUp", methods=["GET", "POST"])
 def signUp():
     if request.method == "POST":
@@ -70,7 +70,7 @@ def signUp():
     else:
         return render_template("home.html")
 
-# 4-3. 로그인 라우트 정의
+# 4-3. 사용자 로그인 처리
 @app.route("/signIn/", methods=["GET", "POST"])
 def signIn():
     if request.method == "POST":
@@ -98,11 +98,19 @@ def signIn():
     else: 
         return render_template("home.html")
 
-# 4-4. 로그아웃 라우트 정의
+# 4-4. 사용자 로그아웃 처리
 @app.route("/signOut")
 def signOut():
     session.clear()
     return redirect(url_for("home"))
+
+# 4-5. 사용자 인증 기반 액세스 제한 처리
+@app.route("/mypage")
+def myPage():
+    if session.get('email') is None:
+        flash("먼저 로그인해 주세요.")
+        return redirect(url_for('home'))
+    return render_template("myPage.html")
 
 # 5. 애플리케이션 실행
 if __name__ == "__main__":
