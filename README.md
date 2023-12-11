@@ -2,12 +2,12 @@
 # Hanghae99 Pre-course Project
 ####
 #### 📌 [Introduction]
-- 2023.12.6.~2023.12.8.(3일) | 항해99 웹 미니 팀 프로젝트
-- 여행 장소를 추천하는 기본 구조의 웹 사이트 만들기 진행
+- 2023.12.6.~2023.12.8.(3일) | 항해99 Pre-course 미니 웹 프로젝트
+- 여행 장소를 추천하는 기본 구조의 웹 사이트 만들는 팀 프로젝트
 - 세션을 사용해 회원가입, 로그인, 로그아웃, 사용자 인증을 기반으로 페이지별 접근 제한 기능 구현 담당
 ##
 #### 📌 [Tech Stack]
-- <div align="left"><img src="https://img.shields.io/badge/[frontend]-HTML5 / Bootstrap (CSS) / JavaScript (with jQuery)-FF6600"/>
+- <div align="left"><img src="https://img.shields.io/badge/[frontend]-HTML / Bootstrap (CSS) / JavaScript (with jQuery)-FF6600"/>
 - <div align="left"><img src="https://img.shields.io/badge/[backend]- Flask (Python web framework) / SQLite (database) / SQLAlchemy (ORM for database) / Python (programming language)-4479A1"/>
 ##
 #### 📌 [Features]
