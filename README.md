@@ -35,7 +35,7 @@
 - 로그아웃 버튼을 클릭할 경우, 현재 세션의 모든 데이터가 지워지고 로그인 상태에서 로그아웃 상태로 전환됨
 ##
 #### 📌 [Troubleshooting]
-- 원인: Flask의 세션 관리 시 데이터를 안전하게 처리하기 위해 secret key가 설정되지 않아 RuntimeError 에러가 발생함
+- 원인: Flask의 세션 관리 시 데이터를 안전하게 처리하기 위한 secret key가 설정되지 않아 RuntimeError 에러가 발생함
 - 해결: secrets 모듈을 사용해 세션 데이터를 안전하게 처리할 수 있는 임의의 secret key를 설정해 에러를 해결함
 ##
 #### 📌 [Afterthoughts]
